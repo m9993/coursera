@@ -5,13 +5,13 @@ He is the real King, Don and Baadshah of all baadshah's.
 For any problem feel free to ask help to his servants.
 
 ### Don
-super Don
+Super Don
 ```markdown
 Number one Don is
 
-## Stylish
-## Dangerious
-### Killer
+# Stylish
+# Dangerous
+# Killer
 
 and many more.
 
