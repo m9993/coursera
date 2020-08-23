@@ -45,7 +45,7 @@ label{
 @media(max-width: 768px){
 
 	.logo{
-		background: url('../logo/payroll_logo_70.png') no-repeat ;
+		background: url('../logo/payroll_logo_70.PNG') no-repeat ;
 		width: 150px;
 		height: 150px;
 		float: none;
@@ -58,9 +58,5 @@ label{
   	form{
   		margin: 0px;
   	}
-  	hr{
-  		margin-top: 0px;
-  		margin-bottom: 70px;
-  		border: 1px solid black;
-  	}
+  	
 }
