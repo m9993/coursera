@@ -24,8 +24,11 @@ if($_SERVER['REQUEST_METHOD']=="GET"){
       $_SESSION['msg_type']="danger";
     }
     else{
-      $query="delete from users where u_id='".$_GET['deleteId']."'";
-      if($da->ExecuteQuery($query)){
+      $query1="delete from payment where u_id='".$_GET['deleteId']."'";
+      $query2="delete from salary where u_id='".$_GET['deleteId']."'";
+      $query3="delete from workingtime where u_id='".$_GET['deleteId']."'";
+      $query4="delete from users where u_id='".$_GET['deleteId']."'";
+      if($da->ExecuteQuery($query1) && $da->ExecuteQuery($query2) && $da->ExecuteQuery($query3) && $da->ExecuteQuery($query4)){
         $_SESSION['msg']="'".$_GET['deleteId']."' user deleted successfully!";
         $_SESSION['msg_type']="success";
       }
