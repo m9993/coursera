@@ -8,4 +8,8 @@ function billingFunction(){
 	 	document.getElementById('billingZip').value=zip;
 
  	}
+ 	else {
+		document.getElementById('billingName').value='';
+	 	document.getElementById('billingZip').value=''; 		
+ 	}
 }
